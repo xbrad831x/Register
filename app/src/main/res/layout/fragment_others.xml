@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    tools:context="com.example.brandon.register.OthersFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <Button
+        android:text="5pc Hot Wings"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/fiveHotWings"/>
+    <Button
+        android:text="10pc Hot Wings"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/tenHotWings"/>
+    <Button
+        android:text="20pc Hot Wings"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twentyHotWings"/>
+    <Button
+        android:text="Go Cup"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/goCup"/>
+    <Button
+        android:text="Lg Popcorn Nuggets"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/popcornNuggets"/>
+    <Button
+        android:text="Famous Bowl Only"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/famousBowl"/>
+    <Button
+        android:text="Pot Pie Only"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/potPie"/>
+    <Button
+        android:text="Chicken Little Only"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/chickenLittle"/>
+    <Button
+        android:text="Kids Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/kidsMeal"/>
+    <Button
+        android:text="BBQ Sandwich"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/bbqSandwich"/>
+    </GridLayout>
+</ScrollView>

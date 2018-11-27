@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    tools:context="com.example.brandon.register.Register_Buttons">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <Button
+        android:text="Small Meals"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/smallMealsButton"/>
+    <Button android:text="Large Meals"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/largeMealsButton"/>
+    <Button android:text="Combos"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/combosButton"/>
+    <Button android:text="Drinks"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/drinksButton"/>
+    <Button android:text="Sides"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/sidesButton"/>
+    <Button android:text="Desserts"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/dessertsButton"/>
+    <Button android:text="Chicken"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/chickenButton"/>
+    <Button android:text="Strips"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/stripsButton"/>
+    <Button android:text="Others"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/othersButton"/>
+    <Button android:text="Specials/Coupons"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/specialsCouponsButton"/>
+    </GridLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.brandon.register.ChickenFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+    <Button
+        android:text="1pc Breast"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/onePieceBreast"/>
+    <Button
+        android:text="1pc Thigh"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/onePieceThigh"/>
+    <Button
+        android:text="1pc Leg"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/onePieceLeg"/>
+    <Button
+        android:text="1pc Wing"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/onePieceWing"/>
+    <Button
+        android:text="2pc L/T"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twoPieceLT"/>
+    <Button
+        android:text="2pc B/W"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twoPieceBW"/>
+    <Button
+        android:text="3pc L/T"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/threePieceLT"/>
+    <Button
+        android:text="3pc B/W"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/threePieceBW"/>
+    <Button
+        android:text="4pc B/W/L/T"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/fourPieceBWLT"/>
+    <Button
+        android:text="4pc Wing"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/fourPieceWing"/>
+    <Button
+        android:text="8pc"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/eightPiece"/>
+    <Button
+        android:text="10pc"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/tenPiece"/>
+    <Button
+        android:text="12pc"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twelvePiece"/>
+    <Button
+        android:text="16pc"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/sixteenPiece"/>
+    <Button
+        android:text="20pc"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twentyPiece"/>
+    </GridLayout>
+</ScrollView>

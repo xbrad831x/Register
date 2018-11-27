@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    tools:context="com.example.brandon.register.SmallMealsFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <Button
+        android:text="1pc Breast Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/onePieceBreastMeal"/>
+    <Button
+        android:text="2pc L/T Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twoPieceLTMeal"/>
+    <Button
+        android:text="2pc B/W Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twoPieceBWMeal"/>
+    <Button
+        android:text="3pc L/T Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/threePieceLTMeal"/>
+    <Button
+        android:text="3pc B/W Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/threePieceBWMeal"/>
+    <Button
+        android:text="4pc Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/fourPieceMeal"/>
+    <Button
+        android:text="4pc Wing Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/fourPieceWingMeal"/>
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    </GridLayout>
+</ScrollView>

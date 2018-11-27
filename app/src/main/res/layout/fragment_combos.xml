@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    tools:context="com.example.brandon.register.CombosFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <Button
+        android:text="#1 Zinger"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/zingerCombo"/>
+    <Button
+        android:text="#2 Breast/Wing"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/breastWingCombo"/>
+    <Button
+        android:text="#3 Chicken Littles"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/chickenLittleCombo"/>
+    <Button
+        android:text="#4 Popcorn"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/popcornCombo"/>
+    <Button
+        android:text="#5 2pc L/T"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twoPieceLTCombo"/>
+    <Button
+        android:text="#6 3 Strips"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/stripsCombo"/>
+    <Button
+        android:text="#7 Breast"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/breastCombo"/>
+    <Button
+        android:text="#8 Famous Bowl"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/bowlCombo"/>
+    <Button
+        android:text="#9 Pot Pie"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/potPieCombo"/>
+    <Button
+        android:text="#10 3pc L/T"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/threepieceLTCombo"/>
+    <Button
+        android:text="#11 Strips Big Box"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/stripsBigBoxCombo"/>
+    <Button
+        android:text="#12 Zinger Leg Big Box"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/zingerLegBigBoxCombo"/>
+    <Button
+        android:text="#13 5 Hot Wings Combo"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/fiveHotWingsCombo"/>
+    <Button
+        android:text="#14 BBQ Sandwich Combo"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/BBQSandwichCombo"/>
+    </GridLayout>
+
+</ScrollView>

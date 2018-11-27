@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    tools:context="com.example.brandon.register.DrinksFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <Button
+        android:text="Small Drink"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/smallDrink"/>
+    <Button
+        android:text="Medium Drink"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/mediumDrink"/>
+    <Button
+        android:text="Large Drink"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/largeDrink"/>
+    <Button
+        android:text="1/2 Gallon Strawberry Lemonade"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/halfGallonStrawberryLemonade"/>
+    <Button
+        android:text="1/2 Gallon Ice Tea"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/halfGallonIceTea"/>
+    <Button
+        android:text="1.5 Liter Pepsi"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/oneLiterPepsi"/>
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    </GridLayout>
+</ScrollView>

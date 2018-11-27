@@ -1,0 +1,92 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.brandon.register.SpecialsPromotions">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+        <Button
+            android:text="Monday Special"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/mondaySpecial"/>
+        <Button
+            android:text="Wednesday Special"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/wednesdaySpecial"/>
+        <Button
+            android:text="$20 Family Fill Up"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/familyFillUp"/>
+        <Button
+            android:text="$10 Bucket Share"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/bucketShare"/>
+        <Button
+            android:text="Nash/Gold Basket"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/nashGoldBasket"/>
+        <Button
+            android:text="10Pc Bucket Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/tenPieceCoupon"/>
+        <Button
+            android:text="2Pc L/T Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/twoPieceLTCoupon"/>
+        <Button
+            android:text="Popcorn Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/popcornCoupon"/>
+        <Button
+            android:text="3Pc L/T Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/threePieceLTCoupon"/>
+        <Button
+            android:text="3Pc B/W Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/threePieceBWCoupon"/>
+        <Button
+            android:text="20 Hot Wings Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/twentyHotWingsCoupon"/>
+        <Button
+            android:text="7Pc L/T Meal Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/sevenPieceLTMealCoupon"/>
+        <Button
+            android:text="12Pc Feast Meal Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/twelvePieceFeastCoupon"/>
+        <Button
+            android:text="16Pc Feast Coupon"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/sixteenPieceFeastCoupon"/>
+        <Button
+            android:text="Breast Substitution"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/breastSubstitution"/>
+        <Button
+            android:text="Nash/Gold Substitution"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:id="@+id/nashGoldSubstitution"/>
+    </GridLayout>
+</ScrollView>

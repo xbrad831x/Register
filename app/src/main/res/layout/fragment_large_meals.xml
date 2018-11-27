@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    tools:context="com.example.brandon.register.LargeMealsFragment">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+    <Button
+        android:text="8pc Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/eightPieceMeal"/>
+    <Button
+        android:text="10pc Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/tenPieceMeal"/>
+    <Button
+        android:text="12pc Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twelvePieceMeal"/>
+    <Button
+        android:text="16pc Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/sixteenPieceMeal"/>
+    <Button
+        android:text="20pc Meal"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:id="@+id/twentyPieceMeal"/>
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    <Button
+        android:text=""
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1" />
+    </GridLayout>
+</ScrollView>
